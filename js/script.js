@@ -1,7 +1,6 @@
 const container = document.querySelector('.dc-container');
 const btnStart = document.getElementById('start');
 const difficulty = document.getElementById('difficulty');
-reset();
 
 btnStart.addEventListener('click', function(){
     reset();
